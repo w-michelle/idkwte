@@ -4,7 +4,7 @@ import Pages from "./pages/Pages";
 import Search from "./components/Search";
 import { useEffect, useState } from "react";
 function App() {
-  const [city, setCity] = useState("");
+  const [city, setCity] = useState("los angeles");
 
   const handleCity = (e) => {
     const check = localStorage.getItem("restaurantCity");

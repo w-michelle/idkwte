@@ -1,6 +1,7 @@
 import {FaQuestion} from 'react-icons/fa';
 
-import { GiChopsticks, GiCookingPot, GiHerbsBundle, GiSushis} from 'react-icons/gi'
+import { GiHamburger, GiTacos, GiHerbsBundle, GiSushis} from 'react-icons/gi'
+
 import {NavLink} from 'react-router-dom'
 
 function Category() {
@@ -14,13 +15,13 @@ function Category() {
             <GiHerbsBundle className='text-2xl' />
             <h4 className='text-xs text-white'>Italian</h4>
         </NavLink>
-        <NavLink to={'/cuisine/korean'} className="navlink w-20 h-20">
-        <GiChopsticks className='text-2xl' />
-            <h4 className='text-xs text-white'>Korean</h4>
+        <NavLink to={'/cuisine/american'} className="navlink w-20 h-20">
+        <GiHamburger className='text-2xl' />
+            <h4 className='text-xs text-white'>American</h4>
         </NavLink>
         <NavLink to={'/cuisine/french'} className="navlink w-20 h-20">
-            <GiCookingPot className='text-2xl' />
-            <h4 className='text-xs text-white'>French</h4>
+            <GiTacos className='text-2xl' />
+            <h4 className='text-xs text-white'>Mexican</h4>
         </NavLink>
         <NavLink to={'/cuisine/japanese'} className="navlink w-20 h-20">
             <GiSushis className='text-2xl' />
