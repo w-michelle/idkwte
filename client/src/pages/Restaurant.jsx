@@ -13,7 +13,7 @@ function Restaurant() {
 
     const fetchDetails = async() => {
         try{
-            const response = await fetch(`/business?id=${params.id}`)
+            const response = await fetch(`https://idwte-api.vercel.app/business?id=${params.id}`)
             const data = await response.json()
             setDetails(data)
     
