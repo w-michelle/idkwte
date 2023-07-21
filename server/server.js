@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3000;
+
 const cors = require("cors");
 
 const config = require("dotenv").config();
@@ -69,6 +69,4 @@ app.get("/random/:city", (req, res) => {
     });
 });
 
-app.listen(5001, () => {
-  console.log("server started on port 5000");
-});
+module.exports = app;
