@@ -10,7 +10,7 @@ function Random() {
 
     const fetchData = async(city) => {
         try{
-            const response = await fetch(`https://idwte-api.vercel.app/random/${city}`)
+            const response = await fetch(`/random/${city}`)
             const data = await response.json()
             const random = Math.floor(Math.random() *50)
             const restaurant = data.businesses[random]

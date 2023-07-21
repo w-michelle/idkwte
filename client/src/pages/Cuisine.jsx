@@ -10,7 +10,7 @@ function Cuisine() {
     let params = useParams()
     const getCuisine = async(name, city) => {
         try{
-            const data = await fetch(`https://idwte-api.vercel.app/api/${city}?category=${name}`)
+            const data = await fetch(`/api/${city}?category=${name}`)
             const restaurants = await data.json()
             setCuisine(restaurants.businesses)
    
