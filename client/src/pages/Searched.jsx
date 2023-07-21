@@ -7,7 +7,7 @@ function Searched() {
     const [restaurantCity, setRestaurantCity] = useState('')
     const fetchData = async(category, city) => {
         try {
-            const response = await fetch(`/api/${city}?category=${category}`)
+            const response = await fetch(`https://idwte-api.vercel.app/api/${city}?category=${category}`)
             const data = await response.json()
             setSearchedRestaurants(data.businesses)
         }catch(error) {

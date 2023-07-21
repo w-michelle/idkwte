@@ -1,7 +1,7 @@
 {
   "name": "yelpfeature",
   "version": "0.1.0",
-  "proxy": "https://idwte-api.vercel.app",
+
   "private": true,
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",

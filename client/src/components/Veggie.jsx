@@ -21,7 +21,7 @@ function Veggie() {
 const fetchData = async(city) => {
 
     try{
-      const response = await fetch(`/api/${city}?category=${'vegetarian'}`)
+      const response = await fetch(`https://idwte-api.vercel.app/api/${city}?category=${'vegetarian'}`)
       const data = await response.json();
    
       setVeggie(data.businesses)
