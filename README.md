@@ -4,7 +4,7 @@ IDON'TKNOWWHATTOEAT is web application designed as a solution to dining dilemmas
 
 **[View Site](https://idontknowwhattoeat.vercel.app/)**
 
-## Build With
+## Built With
 
 - React
 - TailwindCSS
