@@ -36,7 +36,7 @@ const fetchData = async(city) => {
   
   return (
     <div className="">
-      <h3 className="font">Popular Picks</h3>
+      <h3 className="font">Popular</h3>
       <Splide options={{perPage: 3, arrows:true, pagination:false, drag:'free', gap:'2rem', breakpoints: { 600: {perPage: 1}, 900:{perPage: 2}, 1024:{perPage: 3}}}}>
       
         {

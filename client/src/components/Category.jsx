@@ -11,7 +11,7 @@ function Category() {
             <FaQuestion className='text-4xl'/>
             <h4 className='text-xs'>Random</h4>
         </NavLink>
-        <NavLink to={'/cuisine/italian'} className="navlink w-20 h-20">
+        {/* <NavLink to={'/cuisine/italian'} className="navlink w-20 h-20">
             <GiHerbsBundle className='text-2xl' />
             <h4 className='text-xs text-white'>Italian</h4>
         </NavLink>
@@ -26,7 +26,7 @@ function Category() {
         <NavLink to={'/cuisine/japanese'} className="navlink w-20 h-20">
             <GiSushis className='text-2xl' />
             <h4 className='text-xs text-white'>Japanese</h4>
-        </NavLink>
+        </NavLink> */}
     </div>
   )
 }
